@@ -1,0 +1,72 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .generate-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .generate-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .shayri-container {
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    animation: fade-in 0.5s ease-in-out;
+  }
+  
+  .shayri-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .shayri-text {
+    font-size: 18px;
+    color: #333; /* Change the color of the generated Shayri text */
+    font-style: italic; /* Apply italic style to the generated Shayri text */
+    line-height: 1.6; /* Adjust the line height for better readability */
+    text-align: center; /* Center the generated Shayri text */
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
