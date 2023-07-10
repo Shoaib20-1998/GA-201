@@ -1,9 +1,3 @@
-def reverseString(str):
-    str1=""
-    for i in str :
-        str1+=i
-    return str1
-
-
-
-print(reverseString("shoaib"))
+string = "Hello, World!"
+reversed_string = string[::-1]
+print(reversed_string)
